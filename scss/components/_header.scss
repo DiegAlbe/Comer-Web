@@ -1,0 +1,81 @@
+@import "../utilidades/variables";
+@import "../components/mediasquery";
+
+body {
+    font-family: $font-family;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: $background-color;
+}
+
+.fondoheader {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color;
+    align-items: center;
+}
+
+/* Estilos básicos */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: $background-color;
+    font-family: $font-family;
+
+    .logo img {
+        max-height: 150px;
+    }
+
+    .nav-links {
+        list-style: none;
+        font-family: $font-family;
+        display: flex;
+        gap: 15px;
+
+        li a {
+            color: $primary-color;
+            text-decoration: none;
+            padding: 8px 15px;
+            font-family: $font-family;
+            font-size:x-large;
+
+            &:hover {
+                background-color: lighten($background-color, 10%);
+            }
+        }
+    }
+}
+
+/* Estilos responsivos */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: inline-flex;
+    cursor: none;
+    font-size: 30px;
+    color: $primary-color;
+    font-family: $font-family;
+}
+
+main h1 {
+    text-align: center;
+    text-size-adjust: 50px;
+    font-size: 2rem;
+    /* 2 veces el tamaño de fuente base */
+}
+
+main h2 {
+    font-size: 1.5rem;
+    align-content: center;
+    /* 1.5 veces el tamaño de fuente base */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

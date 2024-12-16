@@ -1,0 +1,35 @@
+@import "../utilidades/variables";
+
+footer .footerbloque {
+    display: flex;
+    height: 30px;
+    width: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: $footer-color;
+    margin-inline-start: auto;
+}
+
+footer h6 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.redessociales {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-size-adjust: 30px;
+    text-shadow: #2fb39c;
+    color: $secondary-color;
+    margin-bottom: 10px;
+}
+
+.redesSociales {
+    font-size: 50px;
+    text-decoration: solid;
+    color: $secondary-color;
+    justify-content: center;
+    margin-bottom: 10px;
+}
