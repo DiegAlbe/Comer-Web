@@ -569,6 +569,7 @@ nav ul {
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
 .image-container {
@@ -667,12 +668,18 @@ nav ul {
 
 .carousel-container {
   max-width: 800px;
+  border-radius: 8px;
   /* Establece el ancho máximo del carrusel */
   margin: auto;
   /* Centra horizontalmente el carrusel */
 }
 
 /* Estilos básicos */
+.container {
+  align-items: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;

@@ -10,9 +10,15 @@
 
 .carousel-container {
   max-width: 800px;
+  border-radius: 8px;
   /* Establece el ancho máximo del carrusel */
   margin: auto;
   /* Centra horizontalmente el carrusel */
 }
 
 /* Estilos básicos */
+.container { 
+  align-items: center;
+  margin-top: 20px;
+
+}
