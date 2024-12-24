@@ -363,6 +363,7 @@ nav .logo img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   margin-top: 90px;
+  align-items: center;
   animation: fadeIn 1s ease-in-out;
 }
 @keyframes fadeIn {
