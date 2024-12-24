@@ -21,8 +21,9 @@ main .banner {
 
 .librosDestacados {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    
+    justify-content: center;
+    align-items: stretch;
     flex-wrap: nowrap;
     align-items: flex-end;
     gap: 20px;
@@ -30,7 +31,7 @@ main .banner {
 }
 
 .libros_card {
-    background-color:$background-color;
+    background-color:$sale-text-color;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
